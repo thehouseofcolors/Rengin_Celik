@@ -1,34 +1,57 @@
 # **Rengin Çelik**  
-### `🎮 Unity Game Dev` | `C#` | `📱 Mobile Optimization`  
+### `🎮 Unity Game Dev` | `C#` | `📱 Mobile Dev`  
 
 ```csharp
-// ========== SKILLS ========== //
-[Serializable]
-public struct DevSkills {
-    [Header("🛠️ Core")] 
-    public bool Unity;
-    public bool CSharp;
-    public bool MobileGames;
-
-    [Header("🎮 Gameplay")] 
-    public bool HyperCasual;
-    public bool PuzzleMechanics;
-    public bool GridSystems;
-    public bool UI_UX;
-
-    [Header("⚡ Optimization")] 
-    public bool ObjectPooling;
-    public bool StateMachines;
-    public bool MemoryManagement;
+// ========== CORE INTERFACE ========== //
+public interface IGameDeveloper {
+    void OptimizePerformance();
+    void ImplementGameplayMechanics();
+    void DesignUIUX();
 }
 
-// ========== PROJECTS ========== //
-public class ShippedGames {
-    public const string EndlessRunner = 
-        "🏃‍♂️ Procedural endless runner | Optimized pooling";
-    public const string SimulationGame = 
-        "📦 Resource management + inventory system";
+// ========== SKILLS IMPLEMENTATION ========== //
+public class DevProfile : MonoBehaviour, IGameDeveloper {
+    [Header("🛠️ Core Competencies")]
+    public bool Unity = true;
+    public bool CSharp = true;
+    public bool MobileGames = true;
+
+    [Header("🎮 Specializations")]
+    public bool HyperCasual = true;
+    public bool PuzzleMechanics = true;
+    public bool PerformanceOptimization = true;
+
+    public void OptimizePerformance() {
+        // Implementation: Object Pooling, Memory Management, etc.
+    }
+
+    public void ImplementGameplayMechanics() {
+        // Implementation: State Machines, Event Systems, etc.
+    }
+
+    public void DesignUIUX() {
+        // Implementation: UI Flow, UX Polish, etc.
+    }
 }
+
+// ========== PROJECT SHOWCASE ========== //
+[System.Serializable]
+public struct Project {
+    public string Name;
+    public string Description;
+    
+    public static Project[] Portfolio = {
+        new Project {
+            Name = "Endless Runner",
+            Description = "Optimized procedural generation system"
+        },
+        new Project {
+            Name = "Resource Simulator", 
+            Description = "Inventory management with data-driven design"
+        }
+    };
+}
+```
 
 // ========== CONTACT ========== //
 public static class Connect {
@@ -44,10 +67,10 @@ public static class Connect {
 ```
 
 ### **📫 Let's Talk**  
-```bash
-# Email:    rengin.celik97@gmail.com
-# LinkedIn: linkedin.com/in/rengincelik
-```
+[//]: # (Functional but invisible links)
+[Email](mailto:rengin.celik97@gmail.com) | 
+[LinkedIn](https://linkedin.com/in/rengincelik)
+
 
 ---
 <p align="center">
