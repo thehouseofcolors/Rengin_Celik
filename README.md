@@ -1,55 +1,55 @@
 # **Rengin Çelik**  
-### `🎮 Unity Game Dev` | `C#` | `📱 Mobile Optimization`  
+### `Unity Game Developer` | `C#` | `Mobile Optimization`  
 
 ```csharp
-// ========== SKILLS ========== //
+// ==== CORE SKILLS ====
 [Serializable]
-public struct DevSkills {
-    [Header("🛠️ Core")] 
+public struct Skills {
+    [Header("Development")] 
     public bool Unity;
     public bool CSharp;
     public bool MobileGames;
 
-    [Header("🎮 Gameplay")] 
+    [Header("Game Systems")] 
     public bool HyperCasual;
     public bool PuzzleMechanics;
     public bool GridSystems;
     public bool UI_UX;
 
-    [Header("⚡ Optimization")] 
+    [Header("Optimization")] 
     public bool ObjectPooling;
     public bool StateMachines;
     public bool MemoryManagement;
 }
 
-// ========== PROJECTS ========== //
-public class ShippedGames {
+// ==== PROJECTS ====
+public class Projects {
     public const string EndlessRunner = 
-        "🏃‍♂️ Procedural endless runner | Optimized pooling";
+        "Optimized endless runner with procedural generation";
     public const string SimulationGame = 
-        "📦 Resource management + inventory system";
+        "Resource management + inventory system";
 }
 
-// ========== CONTACT ========== //
-public static class Connect {
-    public const string Email = "📧 rengin.celik97@gmail.com";
-    public const string LinkedIn = "🔗 linkedin.com/in/rengincelik";
+// ==== CONTACT ====
+public static class Links {
+    public const string Email = "rengin.celik97@gmail.com";
+    public const string LinkedIn = "https://linkedin.com/in/rengincelik";
 }
 ```
 
-### **🚀 Mission**  
+### **Objective**  
 ```diff
-+ "Build buttery-smooth mobile games with addictive mechanics."
-+ "Passionate about clean code and performance-first design."
++ Build high-performance mobile games with polished mechanics and clean UX.
++ Open to collaborations & tech discussions!
 ```
 
-### **📫 Let's Talk**  
+### **📫 Reach Me**  
 ```bash
-# Email:    rengin.celik97@gmail.com
-# LinkedIn: linkedin.com/in/rengincelik
+"mailto:" + Links.Email  # Email
+Links.LinkedIn          # LinkedIn
 ```
 
 ---
 <p align="center">
-  <i>🔥 Open to collabs, tech chats, and wild game ideas!</i>
+  <i>Let's create something fun together! 🚀</i>
 </p>
