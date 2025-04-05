@@ -1,55 +1,51 @@
-# **Rengin Çelik**  
-### `Unity Game Developer` | `C#` | `Mobile Optimization`  
+/*
+ * ===== RENGIN ÇELIK | UNITY DEVELOPER (MOBILE GAMES) =====
+ * Focus: Hyper-Casual, Puzzle, Optimization, UI/UX
+ */
 
-```csharp
-// ==== CORE SKILLS ====
-[Serializable]
-public struct Skills {
-    [Header("Development")] 
+[System.Serializable]
+public class Skills {
+    [Header("Core Development")]
     public bool Unity;
     public bool CSharp;
-    public bool MobileGames;
+    public bool MobileGameDev;
 
-    [Header("Game Systems")] 
-    public bool HyperCasual;
-    public bool PuzzleMechanics;
-    public bool GridSystems;
-    public bool UI_UX;
+    [Header("Game Systems")]
+    public bool HyperCasualMechanics;
+    public bool PuzzleDesign;
+    public bool GridBasedSystems;
+    public bool UIUX_Development;
 
-    [Header("Optimization")] 
+    [Header("Optimization")]
     public bool ObjectPooling;
     public bool StateMachines;
+    public bool EventDrivenArchitecture;
     public bool MemoryManagement;
 }
 
-// ==== PROJECTS ====
 public class Projects {
-    public const string EndlessRunner = 
-        "Optimized endless runner with procedural generation";
-    public const string SimulationGame = 
-        "Resource management + inventory system";
+    public string EndlessRunner = "Optimized endless runner with procedural mechanics";
+    public string SimulationGame = "Resource management + inventory system";
 }
 
-// ==== CONTACT ====
-public static class Links {
+public class Contact {
     public const string Email = "rengin.celik97@gmail.com";
-    public const string LinkedIn = "https://linkedin.com/in/rengincelik";
+    public const string LinkedIn = "linkedin.com/in/rengincelik";
 }
-```
 
-### **Objective**  
-```diff
-+ Build high-performance mobile games with polished mechanics and clean UX.
-+ Open to collaborations & tech discussions!
-```
+// ===== OBJECTIVE =====
+// Goal: Build high-performance mobile games with clean mechanics and smooth UX.
+// Seeking collaborations, tech discussions, and challenging projects.
 
-### **📫 Reach Me**  
-```bash
-"mailto:" + Links.Email  # Email
-Links.LinkedIn          # LinkedIn
-```
+#if UNITY_EDITOR
+[ContextMenu("Reach Out")]
+void OpenContactLinks() {
+    Application.OpenURL("mailto:" + Contact.Email);
+    Application.OpenURL("https://" + Contact.LinkedIn);
+}
+#endif
 
----
-<p align="center">
-  <i>Let's create something fun together! 🚀</i>
-</p>
+/* 
+ * Let's connect and create something fun! 🎮
+ * - Rengin
+ */
